@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Matt Young | Web Developer</title>
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/4296ce8a89.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="header">
+
+            <button class="nav-btn" id="nav-btn"><i class="fa-solid fa-bars fa-2x"></i></button>
+            <nav class="navbar">
+                <ul data-visible="false" class="nav-list" id="navlist">
+                    <li class="nav-link nav-home"><a href="#">Home</a></li>
+                    <li class="nav-link nav-about"><a href="#about-me">About</a></li>
+                    <li class="nav-link nav-work"><a href="#work">Work</a></li>
+                    <li class="nav-link nav-contact"><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+
+        </section>
+
+        <section class="home">
+            <a href="#"><img class="logo" src="images/logo.png" alt="logo"></a>
+            <h1 class="home-title">Matt Young</h1>
+            <h2 class="home-subtitle">Web Developer</h2>
+            <a href="#"><img class="scroll" src="images/scroll.png" alt="scroll"></a>
+        </section>
+
+        <section class="about-me" id="about-me">
+            <div class="about-me-container">
+
+                <div class="section-header">
+                    <h3 class="section-title">about me</h3>
+                </div>
+
+                <div class="about-me-info">
+                    <p class="about-me-text">I'm Matt, a self-taught web developer looking to make a career change into front-end development.</p>
+                    <p class="about-me-text">I currently have a working knowledge of the following technologies:</p>
+                    <div class="about-me-skills">
+                        <i class="fa-brands fa-html5 fa-3x"></i>
+                        <i class="fa-brands fa-css3-alt fa-3x"></i>
+                        <i class="fa-brands fa-js fa-3x"></i>
+                        <i class="fa-brands fa-sass fa-3x"></i>
+                        <i class="fa-brands fa-bootstrap fa-3x"></i>
+                        <i class="fa-brands fa-stack-overflow fa-3x"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work" id="work">
+            <div class="work-container">
+
+                <div class="section-header">
+                    <h3 class="section-title">my work</h3>
+                </div>
+
+                <div class="work-info">
+                    <p class="work-text">Take a look at some of my projects via Frontend Mentor:</p>
+                    <div class="work-grid">
+                        <div class="work-grid-item">
+                            <a href="https://mattyoung7.github.io/Maker-Pre-Launch-Landing-Page/" target="_blank"><img class="work-img" src="images/site-1.png"></a>
+                            <p class="work-grid-text">Maker Landing Page utilising HTML and CSS</p>
+                        </div>
+                        <div class="work-grid-item">
+                            <a href="https://mattyoung7.github.io/Advice-Generator-App/" target="_blank"><img class="work-img" src="images/site-2.png"></a>
+                            <p class="work-grid-text">Advice Generator utilising HTML, SASS, vanilla JS and the Advice Slip API</p>
+                        </div>
+                        <div class="work-grid-item">
+                            <a href="https://mattyoung7.github.io/Expenses-Chart-Component/" target="_blank"><img class="work-img" src="images/site-3.png"></a>
+                            <p class="work-grid-text">Expenses Chart utilising HTML, SASS and vanilla JS. Fetch request to take data from local JSON file and update chart via Chart.js framework</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-container">
+
+                <div class="section-header">
+                    <h3 class="section-title">contact me</h3>
+                </div>
+
+                <form class="contact-form">
+                    <input type="text" class="contact-name" id="name" placeholder="Your name...">
+                    <input type="text" class="contact-email" id="email" placeholder="Your email address...">
+                    <textarea class="contact-message" id="message" placeholder="Your message..." rows="8" cols="50"></textarea>
+                </form>
+
+                <p class="copyright">Copyright © 2022 Matt Young Web Development.<br>All Rights Reserved</p>
+
+            </div>
+        </section>
+        
+    <script src="app.js" async defer></script>
+    </body>
+</html>
